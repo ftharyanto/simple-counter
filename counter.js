@@ -15,6 +15,9 @@ const reset = () => {
   document.querySelector(".counter-value").textContent = counter;
 };
 
+
+
 document.querySelector("#increment").addEventListener("click", increment);
+document.querySelector(".counter-value").addEventListener("click", increment);
 document.querySelector("#decrement").addEventListener("click", decrement);
 document.querySelector("#reset").addEventListener("click", reset);
